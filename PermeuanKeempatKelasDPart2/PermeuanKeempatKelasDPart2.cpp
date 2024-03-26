@@ -39,6 +39,13 @@ int main() {
 		cout << "Masukkan PilihanMU : " << endl;
 		cin >> pilihan;
 
-
+		switch (pilihan) 
+		{
+		case 1:
+			inputdata();
+			cout << "\nHaasil Penjumlahan :" << penjumlahan(bilangan1, bilangan2) << endl;
+			system("pause");
+			break;
+		}
 	}while
 }
