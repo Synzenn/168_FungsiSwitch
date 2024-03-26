@@ -8,7 +8,7 @@ int penjumlahan(int a, int b) {
 }
 
 int pengurangan(int a, int b) {
-	return 1 - b;
+	return a - b;
 }
 
 int perkalian(int a, int b) {
@@ -68,5 +68,6 @@ int main() {
 			system("pause");
 			break;
 		}
-	} while
+	} while (pilihan != 5); //!= adalah tidak sama dengan
+	return 0;
 }
