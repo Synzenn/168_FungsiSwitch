@@ -61,6 +61,12 @@ int main() {
 			cout << "\nHasil Pembagian :" << pembagian(bilangan1, bilangan2) << endl;
 			system("pause");
 			break;
+		case 5:
+			break;
+		default:
+			cout << "Pilihan tidak Valid : " << endl;
+			system("pause");
+			break;
 		}
-	}while
+	} while
 }
