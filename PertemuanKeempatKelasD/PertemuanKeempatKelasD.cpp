@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 
-int luas;
+int Luas;
 
 void prosedurluas(int p, int l) {
-	luas = p * l;
+	Luas = p * l;
 }
 
 int fungsiluas(int p, int l) {
@@ -13,8 +13,10 @@ int fungsiluas(int p, int l) {
 
 int main() {
 	int panjang, lebar;
-	cout << panjang;
+	cout << "Masukkan Panjangnya : ";
 	cin >> panjang;
-	cout << lebar;
+	cout << "Masukkan Lebarnya : ";
 	cin >> lebar;
+
+	
 }
