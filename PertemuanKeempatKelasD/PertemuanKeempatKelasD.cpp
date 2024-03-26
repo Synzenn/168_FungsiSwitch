@@ -11,3 +11,10 @@ int fungsiluas(int p, int l) {
 	return p * l;
 }
 
+int main() {
+	int panjang, lebar;
+	cout << panjang;
+	cin >> panjang;
+	cout << lebar;
+	cin >> lebar;
+}
