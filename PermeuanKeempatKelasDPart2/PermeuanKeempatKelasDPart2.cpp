@@ -46,6 +46,11 @@ int main() {
 			cout << "\nHaasil Penjumlahan :" << penjumlahan(bilangan1, bilangan2) << endl;
 			system("pause");
 			break;
+		case 2:
+			inputdata();
+			cout << "\nHasil Pengurangan :" << pengurangan(bilangan1, bilangan2) << endl;
+			system("pause");
+			break;
 		}
 	}while
 }
