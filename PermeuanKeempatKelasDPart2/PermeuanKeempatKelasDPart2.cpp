@@ -11,6 +11,9 @@ int pengurangan(int a, int b) {
 	return 1 - b;
 }
 
+int perkalian(int a, int b) {
+	return a * b;
+}
 
 
 int mian() {
