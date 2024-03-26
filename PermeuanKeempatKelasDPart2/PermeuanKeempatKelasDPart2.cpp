@@ -56,7 +56,11 @@ int main() {
 			cout << "\nHasil Perkalian:" << perkalian(bilangan1, bilangan2) << endl;
 			system("pause");
 			break;
-
+		case 4:
+			inputdata();
+			cout << "\nHasil Pembagian :" << pembagian(bilangan1, bilangan2) << endl;
+			system("pause");
+			break;
 		}
 	}while
 }
